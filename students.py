@@ -1,3 +1,5 @@
+import os
+
 students = { 
     
 }
@@ -16,4 +18,5 @@ def main():
         print(id, name)
 
 if __name__ == "__main__":
+    os.system('cls')
     main()
